@@ -1,0 +1,16 @@
+O jogo funciona da seguinte forma.
+O aplicativo sorteia uma senha com 4 números diferentes entre 6 numeros disponíveis. 
+O objetivo é descobrir esta senha.
+Você terá 6 chances.
+Para mudar o palpite, clique sobre o número na posição desejada. 
+Escolhido o palpite, clique no botão Verifica. 
+O aplicativo informará quantos números que você acertou estão na posição correta através de um círculo preto. Neste caso, um dos números números do palpite atende a esta especificação. 
+O circulo brando indca que um número do palpite existe na senha mas não estã na posição correta. Neste caso, temos dois números dos palpites nesta condição.
+Através da análise lógica destes resultados, novos palpites podeem ser dados. 
+Caso vc acerte a senha, 4 círculos pretos vão aparecer. 
+Para um novo jogo, clique no botão reiniciar.
+Se depois de 6 tentativas você não conseguir descobrir a senha, Ela será mostrada. 
+
+
+
+

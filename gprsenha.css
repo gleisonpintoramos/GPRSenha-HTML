@@ -1,0 +1,153 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: 0;
+    width: 432px;
+    height: 768;
+}
+
+#meuCanvas{
+    position:absolute;
+    padding: 0px;
+    margin: 0px;
+    background-color: 0;
+    width: 432px;
+    height: 768;
+    left: 0;
+    top: 1000px;
+}
+#tbl_palpites{
+    position:absolute;
+    padding: 0px;
+    margin: 0px;
+    background-color: 0;
+    width: 240px;
+    height: 460px;
+    left: 0;
+    top: 200px;
+}
+
+#tbl_avaliacoes{
+    position:absolute;
+    padding: 0px;
+    margin: 0px;
+    background-color: 0;
+    width: 60px;
+    height: 200px;
+    left: 300px;
+    top: 200px;
+}
+
+#tbl_6{
+    position:absolute;
+    padding: 0px;
+    margin: 0px;
+    background-color: 0;
+    width: 300px;
+    height: 600;
+    left: 20px;
+    top: 250px;
+}
+
+#img_Titulo{
+    position:absolute;
+    width: 400px;
+    height: 100;
+    left: 10px;
+    top: 10px;
+}
+
+#img_Autor{
+    position:absolute;
+    width: 400px;
+    height: 100;
+    left: 10px;
+    top: 100px;
+}
+
+#bt_Iniciar{
+    position:absolute;
+    left: 110px;
+    top: 350px;
+}
+
+#bt_Ajuda{
+    position:absolute;
+    left: 110px;
+    top: 450px;
+}
+
+#bt_Verifica{
+    position:absolute;
+    width: 160px;
+    height: 60px;
+    left: 256px;
+    top: 208px;
+}
+
+#bt_Reiniciar{
+    position:absolute;
+    width: 180px;
+    height: 90px;
+    left: 250px;
+    top: 660px;
+}
+
+#img_Email{
+    position:absolute;
+    left: 10px;
+    top: 660px;
+    width: 400px;
+    height: 70px;
+}
+
+#bt_Menos{
+    position:absolute;
+    left: 30px;
+    top: 410px;
+    width: 70px;
+    height: 70px;
+}
+
+#bt_Mais{
+    position:absolute;
+    left: 300px;
+    top: 410px;
+    width: 70px;
+    height: 70px;
+}
+
+#img_Senha{
+    position:absolute;
+    left: 30px;
+    top: 650px;
+    width: 200px;
+    height: 45px;
+}
+
+#div_Senha{
+    position: absolute;
+    text-align: center;
+    color: white;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin:0;
+    top: 690px;
+    left: 50px;
+}
+
+#div_Ajuda{
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    background-color: 0;
+    left: 0px;
+    top: 0px;
+    width: 432px;
+    height: 768;
+}
