@@ -13,8 +13,12 @@ var n_ajuda = 1;
 
 // VERIFICA CLIQUE NA TABELA.
 Tabela.addEventListener("click", (event) => {
-  const x = Math.floor((event.clientX-5)/60);
-  const y = Math.floor((event.clientY-200)/80);
+  const dx = Math.floor(5*zoom);
+  const dy = Math.floor(200*zoom);
+  const lx = Math.floor(60*zoom);
+  const ly = Math.floor(80*zoom);
+  const x = Math.floor((event.clientX-dx)/lx);
+  const y = Math.floor((event.clientY-dy)/ly);
 
   if (y == (n_cursor-1)) {
     palpites[n_cursor-1][x] = (palpites[n_cursor-1][x]%6)+1; 
@@ -33,7 +37,7 @@ function MudaImagem(table, row, column, newImage) {
   }
 }
 
-// SPRTEOA UMA NOVA SENHA
+// SORTEOA UMA NOVA SENHA
 function SorteiaSenha(){
   let a1 = Math.floor(Math.random()*6)+1;
   let a2 = Math.floor(Math.random()*6)+1;
@@ -199,4 +203,21 @@ function MostraAjuda(){
 // ESCONDE AS DIV DE JOGO E AJUDA
 document.getElementById("div_Jogo").style.display = "none";
 document.getElementById("div_Ajuda").style.display = "none";
+
+// AJUSTA O ZOOM DA TELA
+function AjustaTela(){
+  var zx = window.innerWidth/432;
+  var zy = window.innerHeight/768;
+  
+  if (zx <= zy) {
+    zoom = zx;
+    document.body.style.zoom = zoom;
+  } else
+  if (zy < zx) {
+    zoom = zy;
+    document.body.style.zoom = zoom;
+  } 
+}
+AjustaTela();
+
 
